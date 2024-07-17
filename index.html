@@ -54,9 +54,9 @@
 
         #features {
             top: 0;
-            height: 100px;
+            height: 150px;
             margin-top: 20px;
-            width: 250px;
+            width: 300px;
         }
 
         #legend {
@@ -179,7 +179,7 @@
                 });
             });
 
-            map.on('mousemove', ({point}) => {
+            map.on('mousemove', ({ point }) => {
                 const county = map.queryRenderedFeatures(point, {
                     layers: ['covidDataLayer']
                 });

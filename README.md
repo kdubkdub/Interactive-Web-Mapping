@@ -1,1 +1,3 @@
 # Interactive-Web-Mapping
+
+We created an interactive choropleth web map that allowed us to see more information when hovering above certain areas. We were guided to make a web map showing state-level population densities in the U.S. We loaded a local GeoJSON file and added it as a map layer, similar to what we did in our previous lab. Then, we used different colors for different population density values, added a title, and a legend. Lastly and most importantly, we wrote code that allowed us to see specific values when we hovered our mouse over a specific state. For our final deliverable for this lab, we were asked to create a different interactive choropleth map using the COVID-19 related dataset that was provided.
